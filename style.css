@@ -139,7 +139,7 @@ footer {
 @media (min-width: 1440px) {
   .container-main {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding: 50px;
     gap: 50px;
     align-items: flex-start;
