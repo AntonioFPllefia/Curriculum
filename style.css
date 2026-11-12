@@ -49,19 +49,27 @@ header button{
 }
 
 .textlike{
-    width: 335px;
-    height: 24px;
     font-family: 'PT Sans Narrow';
     color: #9E8C6C;
+    width: 335px;
+    height: 42px;
+    font-size: 18px;
 }
 
 .textp{
     width: 224px;
     height: 24px;
     font-family: 'PT Sans Narrow';
+    font-size: 18px;
 }
 
 .text3{
     width: 335px;
-    height: 24px;
+    height: 210px;
+}
+
+.texto3{
+    width: 350px;
+    height: 240px;
+    font-family: 'PT Sans Narrow';
 }
