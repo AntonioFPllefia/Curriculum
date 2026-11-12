@@ -1,6 +1,6 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -10,16 +10,19 @@ header {
   padding: 20px;
 }
 
-main{
-    padding: 20px;
+.container-main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
-footer{
-    padding: 20px;
+footer {
+  padding: 20px;
 }
 
 header img {
-  width: 100%;
+  width: 165px;
+  height: 165px;
   border-radius: 175px;
 }
 
@@ -125,31 +128,30 @@ footer {
 }
 
 @media (min-width: 768px) {
-  main{
+  main {
     padding: 114px;
   }
-  footer{
+  footer {
     padding: 144px;
   }
 }
 
-@media (min-width:1440px){
-    .container-main{
-        display: flex;
-        flex-direction: row;
-        padding: 144px;
-        gap: 50px;
-        align-items: flex-start;
-    }
-    .derecha{
-        order: 2;
-        width: 70%;
-    }
-    .izquierda{
-        order: 1;
-        width: 30%;
-    }
-    footer{
-        padding: 144px;
-    }
+@media (min-width: 1440px) {
+  .container-main {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px;
+    gap: 50px;
+    align-items: flex-start;
+  }
+  footer {
+    padding: 144px;
+  }
+
+  .izquierda{
+    order: 1;
+  }
+  .derecha{
+    order: 2;
+  }
 }
