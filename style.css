@@ -1,75 +1,116 @@
-header{
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+    width: 100%;
+  border-radius: 175px;
+}
+
+header button {
+  width: 225px;
+  height: 60px;
+  background-color: #0699a6;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 375px;
-    height: 596px;
 }
 
-header img{
-    width: 160px;
-    height: 160px;
-    border-radius: 175px;
-}
-
-header button{
-    width: 225px;
-    height: 60px;
-    background-color: #0699A6;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.text1 h1{
-    width: 335px;
-    height: 42px;
-}
-
-.texto1{
-    width: 350px;
-    height: 240px;
-    font-family: 'PT Sans Narrow';
-}
-
-.rectangle{
-    width: 54px;
-    height: 10px;
-    background-color: #0699A6;
-}
-
-.text2 h1{
-    width: 335px;
-    height: 42px;
-}
-
-.texto2{
-    width: 350px;
-    height: 240px;
-    font-family: 'PT Sans Narrow';
-}
-
-.textlike{
-    font-family: 'PT Sans Narrow';
-    color: #9E8C6C;
-    width: 335px;
-    height: 42px;
-    font-size: 18px;
+.texth{
+    font-family: 'Playfair Display';
+    font-size: 40px;
 }
 
 .textp{
-    width: 224px;
-    height: 24px;
-    font-family: 'PT Sans Narrow';
-    font-size: 18px;
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    color: #0699A6;
 }
 
-.text3{
-    width: 335px;
-    height: 210px;
+.textlike {
+  font-family: "PT Sans Narrow";
+  color: #9e8c6c;
+  font-size: 18px;
 }
 
-.texto3{
-    width: 350px;
-    height: 240px;
-    font-family: 'PT Sans Narrow';
+.text1 h1 {
+  font-family: "Playfair Display";
 }
+
+.texto1 {
+  font-family: "PT Sans Narrow";
+}
+
+.rectangle {
+  background-color: #0699a6;
+}
+
+.text2 h1 {
+  font-family: "Playfair Display";
+  font-size: 32px;
+}
+
+.texto2 {
+  font-family: "PT Sans Narrow";
+}
+
+.textp {
+  font-family: "PT Sans Narrow";
+  font-size: 18px;
+}
+
+.text3 {
+  font-family: 'PT Sans Narrow';
+}
+
+.texto3 {
+  font-family: "PT Sans Narrow";
+}
+
+.texto4 {
+  font-family: "PT Sans Narrow";
+}
+
+.texto5 {
+  font-family: "PT Sans Narrow";
+}
+
+.texto6 {
+  font-family: "PT Sans Narrow";
+}
+
+.text7 {
+  font-family: "PT Sans Narrow";
+  padding-bottom: 50px;
+}
+
+.text7 nav ul {
+  list-style: none;
+  font-family: "PT Sans Narrow";
+}
+
+.text8 {
+  font-family: "PT Sans Narrow";
+  padding-bottom: 50px;
+}
+
+.text8 nav ul {
+  list-style: none;
+  font-family: "PT Sans Narrow";
+}
+
+.text9 {
+  font-family: "PT Sans Narrow";
+}
+
+
+
