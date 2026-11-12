@@ -128,3 +128,42 @@
     width: 335px;
     height: 210px;
 }
+
+.texto3{
+    width: 335px;
+    height: 210px;
+}
+
+.texto4{
+    width: 335px;
+    height: 210px;
+}
+
+.texto5{
+    width: 335px;
+    height: 210px;
+}
+
+.texto6{
+    width: 224px;
+    height: 24px;
+}
+
+.rectangle{
+    margin-right:280px;
+    width: 54px;
+    height: 10px;
+    left: 20px;
+    background-color: #0699A6;
+}
+
+nav ul{
+    width: 335px;
+    height: 150px;
+    list-style: none;
+}
+
+.text7{
+    width: 335px;
+    height: 180px;
+}
