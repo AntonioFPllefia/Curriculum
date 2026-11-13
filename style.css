@@ -136,22 +136,20 @@ footer {
   }
 }
 
-@media (min-width: 1440px) {
-  .container-main {
+@media (min-width: 1440px){
+  .container-main{
     display: flex;
     flex-direction: row;
-    padding: 50px;
     gap: 50px;
-    align-items: flex-start;
+    padding: 50px;
   }
-  footer {
-    padding: 144px;
-  }
-
   .izquierda{
     order: 1;
   }
   .derecha{
     order: 2;
+  }
+  footer{
+    padding: 324px;
   }
 }
