@@ -12,7 +12,7 @@ header {
 
 .container-main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   padding: 20px;
 }
 
@@ -136,20 +136,25 @@ footer {
   }
 }
 
-@media (min-width: 1440px){
-  .container-main{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    padding: 50px;
-  }
-  .izquierda{
-    order: 1;
-  }
-  .derecha{
-    order: 2;
-  }
-  footer{
-    padding: 324px;
-  }
+@media (min-width: 1440px) {
+
+    .container-main {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        padding: 50px;
+        align-items: flex-start;
+    }
+
+    .izquierda {
+        order: 1;
+    }
+
+    .derecha {
+        order: 2;
+    }
+
+    footer {
+        padding: 144px;
+    }
 }
